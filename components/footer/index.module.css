@@ -1,0 +1,7 @@
+.footer {
+    @apply flex h-24 w-full items-center justify-center border-t flex-col;
+}
+
+.link {
+    @apply flex items-center justify-center gap-2;
+}
