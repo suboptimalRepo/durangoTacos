@@ -1,9 +1,15 @@
 .container{
-    @apply mx-auto flex flex-col mt-6;
+    @apply mx-auto px-6 flex flex-col mt-6 border-slate-300 border-y-2 border-x-2;
+    
+    @screen sm{
+        @apply flex-row;
+    }
 }
 
-.subTitle {
+.title {
     @apply font-semibold text-white mt-2;
+    
+    
 }
 
 
