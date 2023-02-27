@@ -1,15 +1,13 @@
 .container{
-    @apply mx-auto px-6 flex flex-col mt-6 border-slate-300 border-y-2 border-x-2;
+    @apply mx-auto px-3 flex flex-col mt-6 border-slate-300 border-2 w-8/12 h-48 rounded-sm relative;
     
     @screen sm{
-        @apply flex-row;
+        @apply flex-row w-full  h-[28rem];
     }
 }
 
 .title {
-    @apply font-semibold text-white mt-2;
-    
-    
+    @apply font-semibold text-white flex-auto m-auto;
 }
 
 
@@ -19,4 +17,9 @@
 
 .linkBlue {
     @apply text-blue-400 hover:text-blue-500;
+}
+
+.icon {
+    @apply flex-auto m-auto;
+  
 }
